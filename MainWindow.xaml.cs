@@ -163,7 +163,7 @@ namespace Program
         public MainWindow()
         {
             InitializeComponent();
-            _connection = new NpgsqlConnection("Server=localhost; Port=5432; Database=lab1; User Id = postgres; Password=cjyz2808");
+            _connection = new NpgsqlConnection("Server=localhost; Port=5432; Database=lab1; User Id = postgres; Password=********");
             _firstCommand = new NpgsqlCommand(_firstQuery, _connection);
             _secondCommand = new NpgsqlCommand(_secondQuery, _connection);
             _thirdCommand = new NpgsqlCommand(_thirdQuery, _connection);
